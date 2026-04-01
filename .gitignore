@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Model and data artifacts
+models/
+processed_data/
+results/
+logs/
+snapshots/
+*.h5
+*.npz
+
+# Dataset excluded by user request
+fer2013.csv
+
+# macOS metadata
+.DS_Store
+fer2013.csv
+*.h5
+models/
